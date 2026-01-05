@@ -8,7 +8,7 @@ export default function Layout({ children }: { children: ReactNode }) {
           relative
         min-h-[100svh]
         w-full
-        bg-[url('/wallhaven.jpg')]
+        bg-[url('https://res.cloudinary.com/dcfaz2rme/image/upload/v1767585061/wallhaven_opqtwn.jpg')]
         bg-cover
         bg-center
         bg-no-repeat
