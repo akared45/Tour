@@ -1,6 +1,5 @@
 import "./globals.css";
 
-import { AuthContextProvider } from "@/components/providers/contexts/auth-context";
 import { Toaster } from "@/components/ui/sonner";
 
 export default function Layout({
@@ -14,10 +13,8 @@ export default function Layout({
         <title>My Next App</title>
       </head>
       <body>
-        <AuthContextProvider>
           <Toaster />
           {children}
-        </AuthContextProvider>
       </body>
     </html>
   );
